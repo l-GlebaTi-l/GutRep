@@ -14,8 +14,8 @@ CString::CString(char* Data)
         filename[i] = Data[i];
         i++;
     }
-    i++;
     filename[i] = '\0';
+    i++;
 
     int n = 0;
     while(Data[i] != '\0'){

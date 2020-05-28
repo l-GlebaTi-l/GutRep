@@ -38,6 +38,8 @@ int main()
     }
     fclose(file);
 
+    Objects[0][0] = Objects[0][0] + Objects[1][0] + Objects[2][0];
+
     for(int i = 0; i < N; i++){
         Objects[i] -> output();
     }
